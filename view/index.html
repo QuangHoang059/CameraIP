@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="sour\Iconka-Saint-Whiskers-Cat-cupid-love.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <title>IP Webcam Video Stream</title>
+
+</head>
+
+<body>
+    <form id="myForm" action="/home" method="get">
+        <div id="containurl">
+            <button id="theButton" type="submit">OK</button>
+            <input id="inputAPI" type="url" placeholder="Nhập API" required>
+            <input id="input" type="url" placeholder="Nhập ip video" required>
+        </div>
+    </form>
+    <div id="containvideo">
+        <img id="img" src="https://kimipet.vn/wp-content/uploads/2021/06/con-meo-de-thuong.jpg" alt="">
+        <!-- <canvas id="canvas" width="600" height="400"></canvas> -->
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://www.lactame.com/lib/image-js/0.21.2/image.min.js"></script>
+    <script src=" js/index.js"></script>
+</body>
+
+</html>

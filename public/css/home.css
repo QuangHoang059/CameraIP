@@ -1,0 +1,28 @@
+#containvideo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    /* Căn giữa nội dung trong container */
+    margin: 10px;
+    /* Tạo khoảng cách 10px giữa hai hình ảnh */
+}
+
+.image-container p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#camera,
+#img {
+
+    width: 650px;
+    height: 450px;
+}

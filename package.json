@@ -1,0 +1,27 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@techstark/opencv-js": "^4.8.0-release.4",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-onvif": "^0.1.7",
+    "nodemon": "^3.0.1",
+    "onvif": "^0.6.8",
+    "sharp": "^0.32.5",
+    "socket.io": "^4.7.2"
+  }
+}
